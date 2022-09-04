@@ -2,13 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 0;
+  width: 100%;
 }
 
 .suggestion-text {
   color: #475569;
   font-family: 'Roboto';
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  flex-grow: 1;
 }
 
 .suggestion-selection-button {
@@ -19,6 +21,17 @@
 }
 
 .selection-arrow-img {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .suggestion-text {
+    font-size: 1rem;
+  }
+
+  .selection-arrow-img {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
 }
