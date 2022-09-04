@@ -1,1 +1,43 @@
-/* Write your CSS here */
+.google-search-suggestions-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1.5rem;
+}
+
+.google-logo-img {
+  height: 3rem;
+  width: 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-container {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 1rem 1rem #bfbfbf;
+}
+
+.search-input-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon-img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.search-input {
+  color: #64748b;
+  border: none;
+  background: inherit;
+}
+
+.search-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
